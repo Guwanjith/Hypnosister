@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F227D94919B88EC100DEB48E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F227D94819B88EC100DEB48E /* logo.png */; };
 		F26FB1D119B42D1C0045F35A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26FB1D019B42D1C0045F35A /* Foundation.framework */; };
 		F26FB1D319B42D1C0045F35A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26FB1D219B42D1C0045F35A /* CoreGraphics.framework */; };
 		F26FB1D519B42D1C0045F35A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26FB1D419B42D1C0045F35A /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F227D94819B88EC100DEB48E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		F26FB1CD19B42D1C0045F35A /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26FB1D019B42D1C0045F35A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F26FB1D219B42D1C0045F35A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,7 @@
 		F26FB1D719B42D1C0045F35A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F227D94819B88EC100DEB48E /* logo.png */,
 				F26FB1D819B42D1C0045F35A /* Hypnosister-Info.plist */,
 				F26FB1D919B42D1C0045F35A /* InfoPlist.strings */,
 				F26FB1DC19B42D1C0045F35A /* main.m */,
@@ -227,6 +230,7 @@
 			files = (
 				F26FB1DB19B42D1C0045F35A /* InfoPlist.strings in Resources */,
 				F26FB1E319B42D1C0045F35A /* Images.xcassets in Resources */,
+				F227D94919B88EC100DEB48E /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +448,7 @@
 				F26FB1FB19B42D1C0045F35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F26FB1FC19B42D1C0045F35A /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				F26FB1FE19B42D1C0045F35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
